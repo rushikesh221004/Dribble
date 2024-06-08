@@ -170,10 +170,32 @@ body {
   /* flex-shrink: 0; */
   height: 100%;
   width: 30%;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   border-radius: 35px;
   margin-right: 30px;
 }
+
+.content h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.content ul {
+    display: flex;
+    gap: 10px;
+}
+
+.content ul li {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: 0.2px solid rgba(255, 255, 255, 0.321);
+    width: fit-content;
+}
+
 
 .content div:nth-child(1) {
   background-image: url("https://cdn.dribbble.com/uploads/47175/original/1fb34610061a95a007ac5e7b1dc53138.jpeg?1685645183&format=webp&resize=273x340&vertical=center");
@@ -222,11 +244,11 @@ body {
 
 
 
-@keyframes anime {
+/* @keyframes anime {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-100%);
   }
-}
+} */
