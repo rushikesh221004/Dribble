@@ -67,6 +67,7 @@
   border: none;
   border-radius: 60px;
   padding-left: 50px;
+  background-color: #F8F7F4;
 }
 
 #log div input::-webkit-input-placeholder {
@@ -819,4 +820,105 @@
 #footer p a {
   color: black;
   text-decoration: underline;
+}
+
+#scroll2 {
+  height: 25vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 50px;
+}
+
+#scroll2 .box {
+  height: 100%;
+  width: 14%;
+  /* border: 2px solid black; */
+}
+
+#scroll2 .container {
+  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background-color: yellow; */
+  /* padding: 50px 0; */
+  animation-name: anime;
+  animation-duration: 60s;
+  /* padding: 50px 0; */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box div {
+  height: 62%;
+  width: 90%;
+  /* background-color: black; */
+}
+
+.box p {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.box div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#footer1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#footer1 div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+#footer1 div:nth-child(2) p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#footer1 div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#footer1 div:nth-child(3) i {
+  font-size: 22px;
+}
+
+#footer1 img {
+  height: 100px;
+}
+
+#footer2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 380px;
+  margin: 50px 0;
+}
+
+#footer2 div {
+  display: flex;
+  gap: 20px;
+}
+
+#footer2 div p {
+  font-size: 15px;
 }
