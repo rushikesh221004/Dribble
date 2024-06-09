@@ -1,18 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
-#main {
-  height: 100%;
-  width: 100%;
-  background-color: #f8f7f4;
   font-family: Libre Franklin;
 }
 
@@ -327,9 +315,10 @@ body {
 }
 
 #images {
-  height: 100%;
-  width: 100%;
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
   /* background-color: red; */
+  padding: 1px;
 }
 
 .row1 {
@@ -458,4 +447,376 @@ body {
 .menu2 h4 i:hover {
   cursor: pointer;
   color: #EA64D9;
+}
+
+.row1 .two .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14836748/file/original-fa4f44eb0b61948d66fb987c295a98be.png?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+.row1 .three .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14937273/file/original-02b665877681cf3ab3a1503e6d4af089.png?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+.row1 .four .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14834156/file/original-f19b5701ea5fc4046464114a94efbb3f.png?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+/*------------------------------------------------------------- Row2 -------------------------------------------------------------*/
+
+.row2 {
+  height: 20vw;
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  /* border: 2px solid black; */
+}
+
+.row2 .one {
+  width: 22vw; 
+  height: 35vh;
+  /* border: 2px solid black; */
+  border-radius: 14px;
+}
+
+.row2 .one .img {
+  height: 85%;
+  background-image: url("https://cdn.dribbble.com/userupload/14932012/file/original-1d97d7e3877f85179e8d481c0fb5e569.jpg?crop=111x105-1093x841&resize=450x338&vertical=center");
+  background-size: cover;
+  /* border: 2px solid black; */
+  border-radius: 14px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.one .img .contents {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  height: fit-content;
+  padding: 0 20px 30px 20px; 
+  opacity: 0;
+  transition: 0.5s;
+  backdrop-filter: blur(10px);
+}
+
+.one .img:hover .contents {
+  opacity: 1;
+}
+
+.contents div {
+  display: flex;
+  gap: 10px;
+}
+
+.contents div i {
+  color: black;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.contents h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menus {
+  height: 14%;
+  display: flex;
+  /* background-color: black; */
+}
+
+.menu1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  width: 50%;
+  /* background-color: rebeccapurple; */
+}
+
+.menu1 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.menu1 p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.menu1 p:nth-child(3) {
+  font-size:10px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background-color: #CCCCCC;
+  color: white;
+  font-weight: 600;
+}
+
+.menu1 p:nth-child(3):hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.menus .menu1 {
+  display: flex;
+}
+
+.menus .menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  height: 100%;
+  width: 50%;
+}
+
+.menu2 h4 {
+  font-size: 14px;
+  color: #a4a3a3;
+  font-weight: 400;
+}
+
+.menu2 h4 i {
+  font-size: 15px;
+}
+
+.menu2 h4 i:hover {
+  cursor: pointer;
+  color: #EA64D9;
+}
+
+.row2 .two .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14970824/file/original-08fbfc699ecbb98bee8318e80ded6903.jpg?crop=481x823-2190x2105&resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+.row2 .three .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14901301/file/original-a05d582cc4c1d17c594120451923ebf1.png?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+.row2 .four .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14933162/file/original-2f021c4212fb3be1f6f3ac0d7e2e41ee.jpg?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+/*------------------------------------------------------------- Row3 -------------------------------------------------------------*/
+
+.row3 {
+  height: 20vw;
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  /* border: 2px solid black; */
+}
+
+.row3 .one {
+  width: 22vw; 
+  height: 35vh;
+  /* border: 2px solid black; */
+  border-radius: 14px;
+}
+
+.row3 .one .img {
+  height: 85%;
+  background-image: url("https://cdn.dribbble.com/userupload/14882040/file/original-3628c572f41c2b17b536fbeda4ceb37f.jpg?resize=450x338&vertical=center");
+  background-size: cover;
+  /* border: 2px solid black; */
+  border-radius: 14px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.one .img .contents {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  height: fit-content;
+  padding: 0 20px 30px 20px; 
+  opacity: 0;
+  transition: 0.5s;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.615));
+}
+
+.one .img:hover .contents {
+  opacity: 1;
+}
+
+.contents div {
+  display: flex;
+  gap: 10px;
+}
+
+.contents div i {
+  color: black;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.contents h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menus {
+  height: 14%;
+  display: flex;
+  /* background-color: black; */
+}
+
+.menu1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  width: 50%;
+  /* background-color: rebeccapurple; */
+}
+
+.menu1 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.menu1 p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.menu1 p:nth-child(3) {
+  font-size:10px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background-color: #CCCCCC;
+  color: white;
+  font-weight: 600;
+}
+
+.menu1 p:nth-child(3):hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.menus .menu1 {
+  display: flex;
+}
+
+.menus .menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  height: 100%;
+  width: 50%;
+}
+
+.menu2 h4 {
+  font-size: 14px;
+  color: #a4a3a3;
+  font-weight: 400;
+}
+
+.menu2 h4 i {
+  font-size: 15px;
+}
+
+.menu2 h4 i:hover {
+  cursor: pointer;
+  color: #EA64D9;
+}
+
+.row3 .two .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14788567/file/original-970fe6355c4937cdd1a9afdbc0a930b6.jpg?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+.row3 .three .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14849000/file/original-4c0362f5b4a0f7a14c35b33f2c23f222.png?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+.row3 .four .img {
+  background-image: url("https://cdn.dribbble.com/userupload/14895579/file/original-5a0ab8dde5e50269eb45c0ea72dc8425.jpg?resize=450x338&vertical=center");
+  background-size: cover;
+}
+
+#images button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 18px 24px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 60px;
+  font-weight: 600;
+  margin: 0 0 40px 0;
+}
+
+#footer {
+  height: 70vh;
+  width: 100%;
+  background-color: #FFDA79;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+#footer h1, p {
+  text-align: center;
+}
+
+#footer h1 {
+  font-family: "Source Serif 4";
+  font-size: 3.5vw;
+  font-weight: 500;
+  line-height: 3.8vw;
+}
+
+#footer p {
+  font-size: 21px;
+  line-height: 35px;
+}
+
+#footer div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#footer div button:nth-child(1) {
+  background-color: #0D0C22;
+  color: white;
+}
+
+#footer div button:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#footer div button {
+  padding: 18px 25px;
+  border: none;
+  border-radius: 50px;
+}
+
+#footer p a {
+  color: black;
+  text-decoration: underline;
 }
